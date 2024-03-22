@@ -1,2 +1,9 @@
-welcome
- 
+Hello Hackathon Participants,
+
+Welcome to our annual Hackathon! We are thrilled to have you join us in this exciting journey of innovation, creativity, and problem-solving. Over the next few days, you will be challenged to think outside the box, collaborate with your peers, and create something extraordinary.
+
+Remember, this event is not just about winning. It's about learning, growing, and pushing the boundaries of what's possible. So, let's code, collaborate, and create!
+
+Best of luck to all participants!
+
+Happy Hacking!
