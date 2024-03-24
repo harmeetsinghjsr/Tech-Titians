@@ -9,16 +9,10 @@ import pandas as pd
 # data = np.genfromtxt('emails.csv', delimiter=',', dtype=None)
 
 # For the purpose of this example, let's create some dummy data
-data = np.array([
-    ("buy cheap viagra now", 1),
-    ("low price for cialis", 1),
-    ("limited time offer", 1),
-    ("hello, how are you?", 0),
-    ("meeting at 10am tomorrow", 0),
-    ("can you help with the report?", 0),
-])
-emails = data[:, 0]
-labels = data[:, 1].astype(int)
+# Load your data from a CSV file
+data = pd.read_csv(r'C:\Users\hs978\CodeSpace\Tech Titians\spam.csv', encoding='latin1')
+# Assuming the CSV file has a column named 'email'
+emails = data['email']
 
 # Split the data into training and testing sets
 emails_train, emails_test, labels_train, labels_test = train_test_split(emails, labels, test_size=0.2, random_state=42)
